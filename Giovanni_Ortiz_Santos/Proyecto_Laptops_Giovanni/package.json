@@ -1,0 +1,30 @@
+{
+  "name": "proyecto_laptops_giovanni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src --exec ts-node src/index.ts",
+    "buid": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/mongoose": "^5.11.96",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mogoose": "^0.0.1-security",
+    "mongoose": "^9.6.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.7.0",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
